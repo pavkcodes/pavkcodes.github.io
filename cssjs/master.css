@@ -7,16 +7,12 @@ body{
 background-repeat: no-repeat;
     background-image: url("../5040007.jpg");
     background-size:cover  ;
-
-  /* background-color: blue; */
 }
 header{
   display: flex;
-  /* align-items: center; */
-    /* justify-content: center; */
 }
 .navlogo{
-  padding: 4px 10px;
+  padding: 8px 10px;
   float: left;
   width: 40%;
     align-items: center;
@@ -38,22 +34,32 @@ header{
   align-items: center;
   list-style: none;
   display: flex;
+  padding-right: 50px;
 }
 .navurls li{
-  padding: 0px 10%;
-  text-align: right;
+  padding: 12px 10%;
 }
 .navurls li a{
   text-decoration: none;
   color: #4cc03f;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    padding: 12px 100%;
+}
+.navurls li a:hover{
+  text-decoration:underline;
+  color: #4cc03f;
+  background-color: blue;
+  border: 1px solid white;
 }
 #home{
   display: flex;
   padding: 15px 15px;
 }
 #home img{
-  width: 500px;
-  height: 250px;
+  width: 800px;
+  height: 550px;
 }
 #home .paragraph{
   padding: 35px 35px;
@@ -64,4 +70,25 @@ header{
 }
 #home .paragraph h5{
   color: lightblue;
+}
+#about{
+  padding: 15px 15px;
+}
+#about h2{
+  color: #4cc03f;
+  text-align: center;
+  border-style: solid;
+}
+#about img{
+  padding: 5px 5px;
+  float: right;
+}
+#about p{
+  color: grey;
+  font-size: 25px;
+  padding: 15px 115px;
+}
+#about .content table{
+  color: lightblue;
+  padding: 10px 180px;
 }
