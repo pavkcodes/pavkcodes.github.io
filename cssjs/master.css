@@ -50,7 +50,7 @@ header{
 .navurls li a:hover{
   text-decoration:underline;
   color: #4cc03f;
-  background-color: blue;
+  background-color: purple;
   border: 1px solid white;
 }
 #home{
