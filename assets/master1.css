@@ -1,0 +1,35 @@
+/* CSS Document */
+*{
+margin:0;
+padding:0;
+}
+header{
+display:flex;
+}
+header .navlogo{
+display:flex;
+align-items:center;
+width:30%;
+padding:3px 5px;
+}
+header .navlogo img{
+width:15%;
+border-radius:25px;
+padding:5px 15px;
+}
+header .navlogo h1{
+padding:5x 15px;}
+header .navurls{
+display:flex;
+width:70%;
+align-items:center;
+list-style:none;
+}
+header .navurls li{
+padding:0px 70px;
+}
+
+header .navurls li a{
+border:2px solid red;
+padding:5px 20px;
+}

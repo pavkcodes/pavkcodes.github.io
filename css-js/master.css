@@ -1,0 +1,98 @@
+/* CSS Document */
+*{
+padding:0;
+margin:0;}
+body{
+background-image:url("../5040007.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+color:grey;}
+header{
+display:flex;
+border:2px inset green;
+padding:0px 0px;}
+header .logo{
+display:flex;
+padding:10px 15px;
+align-items:center;
+width:30%;}
+header .logo img{
+border-radius:25px;
+border:1px solid #006633;
+}
+header .logo h1{
+padding:0px 5px;
+color:#00CC66;
+}
+header .navigation{
+width:70%;
+display:flex;
+align-items:center;
+justify-content:right;
+list-style:none;
+padding-right:5px;}
+header .navigation li{
+text-decoration:none;
+padding:0px 8%;
+}
+header .navigation li a{
+text-decoration:none;
+border:1px solid blue;
+color:green;
+font-size:15px;
+padding:15px 35px;}
+header .navigation li a:hover{
+text-decoration:none;
+background-color:#003333;
+}
+.container{
+display:flex;
+padding:5px 35px 5px 35px;}
+.container img{
+width:50%;
+border:1px solid #003333;}
+.container .para{
+width:50%;}
+#home img{
+width:630px;height:300px;}
+#about .container img{
+width:500px;height:500px;}
+#home .para{
+padding:100px 0px;
+text-align:center;
+align-items:center;
+justfy-content:center;
+line-height:40px;
+}
+#home .para h2{
+font-family:cursive;
+letter-spacing:10px;}
+.container .para table{
+padding:100px 100px;}
+.container .para table td{
+padding:25px 100px;
+border:1px solid red;
+text-align:left;
+}
+.container .para table td:nth-child(odd){
+background-color:#804040;
+}
+.projectdisplay .row1,.row2{
+display:flex;
+padding:15px 50px;}
+.projectdisplay .row1 .proj , .row2 .proj{
+width:50%;
+border:2px solid white;
+padding:5px 15px;}
+.projectdisplay .row1 .proj img, .row2 .proj img{
+width:100%;}
+.proj .title ptitle{
+color:#996633;
+padding:0px 200px;}
+.proj p{
+text-align:center}
+.proj button{
+float:right;
+background-color:#000066;
+padding:5px 10px;
+}
