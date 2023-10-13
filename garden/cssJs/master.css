@@ -1,0 +1,123 @@
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+	
+.navbar{
+	display:flex;
+	align-items:center;
+	background-color:#99FF66;
+}
+
+.left-nav{
+	width:30%;
+}
+.left-nav img{
+	width:30%;
+	border-radius:75px;
+}
+
+.right-nav{
+	width:70%;
+}
+
+.nav{
+	justify-content:right;
+	display:flex;
+	list-style:none;
+}
+
+.nav li{
+	padding:0 45px;
+}
+.nav li a{
+	color:#003366;
+	text-decoration:none;
+}
+.nav li a:hover{
+	border:1px solid #99FF33;
+	padding:30px 50px;
+	background-color:#00CC66;
+	text-decoration:none;
+}
+section{
+	padding:5%;
+}
+.home-section{
+	justify-content:center;
+	align-items:center;
+	background-image:url(../assets/20220416_CUP003_0.avif);
+	padding:5%;	
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:500px;
+}
+.home-section .content{
+	border:1px solid white;
+	background-color:none;
+	opacity:1;
+	padding:15%;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+}
+.home-section .content h3{
+	font-size:300%;
+	color:#333366;
+	text-shadow:#000000;
+}
+.home-section .content h2{
+	font-size:400%;
+	text-shadow:#000000;
+	color:#000033;
+}
+.home-section .content h5{
+	font-size:200%;
+	text-shadow:#000000;
+	color:#000099;
+}
+.about-section{
+	display:flex;
+}
+.about-section .left{width:45%;}
+.about-section .right{width:55%;justify-content:right;float:right;}
+.about-section div img{width:100%;}
+.about-section hr{width:90%;}
+.about-section .left h3{
+	padding:2%;
+	border-left:1px solid red;
+	font-size:36px;
+	text-align:center;
+	text-decoration:underline;
+}
+.about-section .left p{
+	padding:0 25px;
+	font-size:18px;
+}
+.contact-form h3{
+	text-align:center;
+	font-size:36px;
+}
+.form-input{ padding:2.5%;}
+.each-input{
+	margin:2.5%;}
+.each-input h5{
+	margin-bottom:1%;
+	border-left:5px solid green;
+	padding:0 1%;
+	font-size:18px;}
+.each-input input{
+	width:100%;
+	height:40px;}
+.buttons{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.submit-btn{
+	padding:2.5% 5%;
+	background-color:#00CC66;
+	color:#003366;
+}
