@@ -1,0 +1,24 @@
+@media only screen and (max-width:800px) {
+    header{
+        transition: all 0.5s ease-out;
+    }
+    .ham-menu {
+        display: block;
+        position: fixed;
+        right: 0;
+        padding-right: 20px;
+    }
+    .h-line {
+        width: 25px;
+        height: 5px;
+        border: 1px solid white;
+    }
+    .invisible {
+        opacity: 0;
+    }
+
+}
+.nav-new{
+    flex-direction: column;
+    height: 500px;
+}

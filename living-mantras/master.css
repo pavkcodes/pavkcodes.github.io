@@ -1,0 +1,159 @@
+*{
+    padding:0;
+    margin:0;
+}
+.nav{
+    display:flex;
+    align-items:center;
+    background-color: rgb(51, 47, 47);
+    height:50px;
+}
+body{
+    background-color: blanchedalmond;
+}
+.lft-nav{
+    display:flex;
+    width:30%;
+    text-shadow: 2px 2px white;
+    color:rgb(100, 123, 187);
+}
+.lft-nav *{padding:0 10px;}
+.rgt-nav{
+    display:flex;
+    width:70%;
+    justify-content: right;
+    align-items: center;
+}
+.rgt-nav .urls-nav{
+    display:flex;
+    list-style: none;
+}
+.rgt-nav .urls-nav li{
+    padding:0 35px;
+}
+.rgt-nav .urls-nav li a{
+    text-decoration: none;
+    color:azure;
+    border:1px solid rgb(37, 34, 34);
+    padding:5px 20px;
+}
+.rgt-nav .urls-nav li a:hover{
+    text-decoration: none;
+    color:azure;
+    background-color: rgb(88, 80, 80);
+}
+.home-sect{
+    padding:5%;height:485px;
+    background-image: url(gifs/7chakras.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-center{
+    color: rgb(183 71 168);
+    padding: 10% 100px;
+    padding-top: 10%;
+    text-shadow: 2px 2px white;
+    font-size: 100px;
+}
+.about-sect{
+    padding:5%;
+}
+.about-sect h2{
+    color: blueviolet;
+    font-size: 60px;
+    border-left: 5px solid rgb(166, 196, 57);
+    padding:0 35px;
+    border-right: 5px solid rgb(166, 196, 57);
+}
+.about-sect .content{
+    display: flex;
+}
+.about-sect .content .lft{
+    padding:2.5% 10%;
+}
+.about-sect .content .rgt{
+    padding:2.5% 0;
+}
+.about-sect .content .lft h4{
+    color: rgb(58, 126, 98);
+    margin: 2% 0;
+}
+.about-sect .content .lft p{
+    margin: 2% 0;
+    line-height: 55px;
+}
+
+.mantras-sect{
+    padding: 2%;
+    background-color:rgb(218, 233, 233);
+}
+.mantras-sect h1{
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 2px 2px white;
+    font-size: xx-large;
+    padding: 0.5%;
+}
+.mantras-sect .each{
+    display: flex;
+    padding: 0.5%;
+}
+.mantras-sect .each .content{
+    padding:1%;
+}
+.mantras-sect .each .content h3{
+    font-size: xx-large;
+    text-align: center;
+    border-left: 5px solid rgb(109, 53, 53);
+    border-right: 5px solid rgb(109, 53, 53);
+}
+.mantras-sect .each .content p{
+    padding: 1% 1%;
+    line-height: 35px;
+}
+.mantras-sect .others .list ul{
+    list-style:square;
+    padding-left: 10%;
+}
+.mantras-sect .others .list li{
+    padding:0.5%;
+    color: rgb(57, 44, 75);
+    font-size:22px;
+}
+.contact-form{
+    padding:2.5% 5%;
+}
+.support-sect{
+    padding: 2.5% 5%;
+    background-color: rgb(149, 235, 141);
+}
+.support-sect h2{
+    text-align: center;
+    font-size: 35px;
+}
+.support-sect .each{
+    padding: 0.5% 0;
+    font-size: 20px;
+    color: rgb(94, 60, 59);
+}
+.support-sect .each input{
+    width:100%;
+    border: 2px solid white;
+}
+.support-sect .each textarea{
+    width:100%;
+    height:50px;
+    border: 2px solid white;
+}
+.support-sect .btns{
+    display: flex;
+    justify-content: center;
+}
+.support-sect .btns button{
+    padding:1% 2%;
+    background-color: aliceblue;
+    border-style: groove;
+}
+.support-sect .btns button:hover{
+    background-color: aqua;
+}
