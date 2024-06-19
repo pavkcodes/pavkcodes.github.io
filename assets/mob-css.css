@@ -1,0 +1,124 @@
+*{
+    padding: 0;margin: 0;
+}
+header{
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    width: 95%;
+    position: relative;
+}
+.logo{
+    color:#ffffff;
+    width:50%;
+    position:absolute;
+    background-color:#1cc0d4;
+    font-size:35px;
+}
+.logo:after{
+    width:50px;
+    background:#1cc0d4;
+    position:absolute;
+    height:100%;
+    content:' ';
+    right:-22px;
+    top:0;
+    transform: skew(45deg);
+}
+.navbar .rgt{
+    width: 100%;
+    background-color:grey;
+    font-size:35px;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+.navbar .rgt #navlist{
+    display: none;
+}
+.navbar .rgt .ham{color: white;
+    text-decoration: none;
+    font-size: 35px;
+    padding-right: 10px;
+  right: 0;
+  top: 0;
+}
+#navlist{
+    padding: 15px;
+    font-size: 25px;
+    list-style: none;
+}
+#navlist li{
+    padding: 1px;
+    border: 1px solid;
+    text-align: center;
+}
+#navlist li a{
+    text-decoration: none;
+}
+.home{
+    padding: 30% 20% 30% 20%;
+    background-image: url('hi.gif');
+    background-size: cover;
+    /* font-size: 35px; */
+    color: white;
+    text-align: center;font-family: Arial, Helvetica, sans-serif;
+    text-shadow:3px 3px 2px #5960bbd4 ;
+}
+#home-wel{border: 2px solid white;background-color: grey;padding: 5px;}
+
+
+.about{
+    display: block;
+    width: 90%;
+    margin:5%;
+    padding: 14x;
+    background-color: rgb(172, 207, 238);
+    align-items: center;
+}
+.about .pic{
+    width: 100%;
+}
+.about .pic img{
+width: 100%;
+border-radius: 50%;
+}
+.about .data{width: 100%;
+    padding: 5px;
+}
+.about-head{
+    text-align: center;
+}
+.about .data div{
+    line-height: 25px;
+    padding: 5px;
+}
+.projects{
+    width:98%;
+    margin: 2%;
+}
+.group{
+    margin:5px;
+    display: block;
+    padding: 15px;
+}
+.proj{
+    /* padding: 5px; */
+    width: 95%;
+    border: 1px solid grey;
+    maRGIN: 5px;
+}
+.proj img{
+    width: 100%;
+}
+.proj h3{
+    text-align: center;
+    margin: 5px;
+}
+.proj div{
+    display: flex;
+    justify-content: center;
+}
+.proj button{
+    width:80%;
+}

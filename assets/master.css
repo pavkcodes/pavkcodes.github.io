@@ -1,0 +1,36 @@
+body{
+    padding: 0;margin: 0;
+}
+.navbar{
+    width: 100%;
+    /* padding: 15px; */
+    display: flex;
+    align-items: center;
+}
+.logo{width: 30%}
+.nav{width:70%;}
+.navbar .nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+.nav ul li{
+    padding-left: 25px;
+}
+header{
+    background-image: url(coding.gif) ;
+    background-size: cover;
+}
+section{
+    width: 95%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    text-align: center;
+}
+#home img{
+    width:100%;
+
+}

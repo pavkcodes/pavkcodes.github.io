@@ -1,91 +1,88 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>PavanCodes</title>
-<link rel="icon"  href="assets/pavk.png" />
-<link rel="stylesheet" href="css-js/master.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PavanK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen and (min-width: 480px)" href="assets/win-css.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="assets/mob-css.css">
 </head>
 <body>
-<header>
-<div class="logo">
-<img src="assets/pavk.png">
-<h1>PavkCodes</h1>
-</div>
-<ul class="navigation">
-<li><a href="">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="living-mantras/index.html">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</header>
-<br />
-<section id="home">
-<div class="container">
-<div class="para">
-<h2>Welcome!</h2>
-<h5>To my codes hub</h5>
-</div>
-<img  src="assets/image1.jpg" alt="image1"/>
-</div>
-</section>
-<section id="about">
-<br />
-<h2 style="text-align:center;font-size:36px;">About Me!</h2>
-<br />
-<div class="container">
-<img  src="assets/image3.jpg" alt="image3"/>
-<div class="para">
-<table>
-<tr>
-<td id="head-row">Name</td>
-<td id="data-row">N. Pavan Kumar</td>
-</tr>
-<tr>
-<td id="head-row">Age</td>
-<td id="data-row">16 years</td>
-</tr>
-<tr>
-<td id="head-row">DOB</td>
-<td id="data-row">01 April 2007</td>
-</tr>
-</table>
-</div>
-<div>
-</section><br />
-<h2 style="text-align:center;font-size:36px;">Projects!</h2>
-<br />
-<section class="projectdisplay">
-<div class='row1'>
-<div class="proj">
-<img src="assets/p1.png"/>
-<h3 class="title">Title: <ptitle>Math-Fly</ptitle></h3>
-<!---<button type="submit">More Details</button>--->
-<p>A PC game on arthematic operations</p>
-<button>More Details</button>
-</div>
-<div class="proj">
-<img src="assets/p2.png"/>
-<h3 class="title">Title: <ptitle>Loky-Bidr-2D</ptitle></h3>
-<p>A MOB game like flappy bird</p>
-<button>More Details</button>
-</div>
-</div>
-<div class='row2'>
-<div class="proj">
-<img src="assets/p3.png"/>
-<h3 class="title">Title: <ptitle>Gecko-Py</ptitle></h3>
-<p>A pc text-2-voice assistant made with python</p>
-<button>More Details</button>
-</div>
-<div class="proj">
-<img src="assets/p4.png"/>
-<h3 class="title">Title: <ptitle>LED Buzzer</ptitle></h3>
-<p>A led buzzer Ardiuno Uno</p>
-<button>More Details</button>
-</div>
-</div>
-</section>
-<section id="contact"></section>
+    <header>
+        <div class="navbar">
+            <div class="logo">PavanK</div>
+            <div class="rgt">
+                <a href="javascript:void(0);" class="ham" onclick="hamburg()"><i class="fa fa-bars"></i></a>
+                <ul id="navlist">
+                <p id="WHITEPANE" style="background-color: white;color:white;height: 1px;padding: 1px;"></p>
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#home'>About</a></li>
+                <li><a href='#home'>Projects</a></li>
+                <li><a href='#home'>Contact</a></li>
+                <p id="WHITEPANE" style="background-color: white;color:white;height: 1px;padding: 1px;"></p>
+            </ul>
+        </div>    
+    </div>
+        <br>
+        <div class="home" id="home">
+            <P id="home-wel">HI! WELCOME TO MY WEBSITE</P>
+        </div>
+    </header>
+    <h1 class="about-head">About Me</h1>
+    <section class="about" id="about">
+        <div class="data">
+            <div>HI, I am Pavan Kumar. I am currently pursuing class 12<sup>th</sup> in Army Public School SP Marg, Lucknow. I know python, html, css and c# language through which i can do front-end web developement, desktop gui apps, and game developement.
+            </div>
+        </div>
+        <div class="pic">
+            <img src="assets/IMG20230401090228__2_-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <br>
+    <section class="projects">
+        <div class="group">
+            <div class="proj" id="pj1">
+                <img src="https://i.imgur.com/U69i2kp.png" alt="">
+                <h3>Math Maze 2D</h3>
+                <p class="descr">A quiz like maze game.</p>
+                <br>
+                <div><button>Play Now !</button></div>
+                <br>
+            </div>
+            
+            <div class="proj" id="pj2">
+                    <img src="assets/projects/p2png.png" alt="">
+                    <h3>Loky Bird</h3>
+                    <p class="descr">A game similar to flappy bird.</p>
+                    <br>
+                    <div><button>Play Now !</button></div>
+                    <br>
+                </div>
+        </div>
+        <div class="group">
+                <div class="proj" id="pj3">
+                    <img src="assets/projects/p3.png" alt="">
+                    <h3>Video Player</h3>
+                    <p class="descr">A video player with electronjs.</p>
+                    <br>
+                    <div><button>Play Now !</button></div>
+                    <br>
+                </div>
+                
+                <div class="proj" id="pj4">
+                        <img src="assets/projects/p4.jpg" alt="">
+                        <h3>Movie Server</h3>
+                        <p class="descr">An offline version of youtube , videos stored in pc can be accessed anywhere without spending data.</p>
+                        <br>
+                        <div><button>Play Now !</button></div>
+                        <br>
+                    </div>
+            </div>
+        
+    </section>
+
+    <script src="assets/jscript.js"></script>
 </body>
 </html>
